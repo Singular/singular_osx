@@ -20,12 +20,17 @@ data 'TEXT' (5002, "English") {
     "\n"
     "For the most recent version see <https://github.com/Singular/Sources>\n"
     "\n"
-    "NOTE: this is a static Singular build (without dynamic modules and related features)!\n"
+    "Purpose: Singular.app will start Singular within a new Terminal window!\n"
     "\n"
-    "ps: for debug version just rename Singular.app to Singularg.app!\n"
+    "ps1: for debug version just rename Singular.app into Singularg.app\n"
+    "ps2: to start Singular within EMacs (which is thus required) just rename Singular.app into ESingular.app\n"
     "\n"
-    "Note: Singular.app/Singularg.app will start Singular within EMacs (which is thus required) \n"
-    "ps: for terminal Singular just rename Singular.app to TSingular.app!\n"
+    "ps3: in order to start Singular inside an xterm (X11 is required) just navigate inside Singular.app \n"
+    "to Contents/bin and start TSingular!\n"
+    "\n"
+    "Note1: please make sure to NOT rename the application bundle into anything else!\n"
+    "\n"
+    "Note2: this is a static Singular build (without dynamic modules and related features)\n"
     
 };
 

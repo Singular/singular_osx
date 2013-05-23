@@ -39,18 +39,20 @@ C="$RESULT"
 
 
 # "$*"
-ESINGULAR="$C/../bin/ESingular"
+# TSINGULAR="$C/../bin/Singular"
 SINGULAR="$C/../bin/$N"
-EMACS=`which emacs`
+# EMACS=`which emacs`
 
 # echo "$S"
 ## echo "$A"
+A="-v"
 
-A="--singular=$SINGULAR --emacs=$EMACS -v" 
+# A="--singular=$SINGULAR -v" 
 # index??!
 # export SINGULAR_INFO_FILE="$C/..."
 
 osascript -e "tell app \"Terminal\" 
-do script \"$ESINGULAR $A; exit \" 
+do script \"$SINGULAR $A; exit \" 
 end tell"
     
+# exec $TSINGULAR $A
